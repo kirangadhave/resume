@@ -1,0 +1,171 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://kirangadhave.info/}{\Large Kiran B. Gadhave}} & Email : \href{mailto:kirangadhave2@gmail.com}{kirangadhave2@gmail.com}\\
+  \href{ /}{ } & Mobile : +1-385-444-8837 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Utah}{Salt Lake City, UT}
+      {Master of Science in Computer Science}{Aug. 2017 -- Present}
+      \resumeItemListStart
+      	\resumeItem{Courses}
+      	{Advanced Algorithms, Natural Language Processing, Machine Learning}
+      \resumeItemListEnd
+    \resumeSubheading
+      {University of Mumbai}{Mumbai, India}
+      {Bachelor of Engineering in Mechanical Engineering; Percentage: 72\% (Class Rank: 10/120)}{2011 -- 2015}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skill}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Python, C\#, C++, Java, JavaScript, Typescript}
+      }
+	\item{
+		\textbf{Technologies}{: pandas, sklearn, .NET framework, SQL databases}
+	}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cadsol Services}{Mumbai, India}
+      {Software Engineer}{July 2015 - March 2017}
+      \resumeItemListStart
+        \resumeItem{Product Configurators}
+          {Product Configurator is a specialized software used by manufacturing firms to create Computer Aided Drawings of models without requiring specialized knowledge of CAD Tools.
+			\begin{itemize}			
+				\item Developed product configurator and interfaced the tool with various CAD softwares like Solidworks, Autodesk Inventor, ProEngineer using their APIs.
+				\item  Designed and developed user interfaces in WPF to minimize training required for development of complicated drawings.
+			\end{itemize}  
+			}
+        \resumeItem{Inventory Master}
+          {\begin{itemize}
+          	\item Developed inventory management system for SMEs to manage their raw material and processed goods on production line.
+          	\item Developed the tool and database for very large data storage and retrieval over local MySQL server for 100 simultaneous users.
+          	\item Wrote a very fast composite text search tool to search through descriptions of all legacy and new items in inventory.
+          	\item Developed tools to clean, process and migrate legacy data from excel files into the database.
+          	\item Developed communication system for different departments to communicate regarding the status and requirement of items in inventory with access control for admins.
+          	\item Developed a feature to add custom formulas with dynamic retrieval of variables in the formula from database based on specific item selected.
+          \end{itemize}
+          }
+          \resumeItem{Browser based CAD tool}
+          {
+			\begin{itemize}
+				\item 		
+			\end{itemize}			          
+          }
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{QuantSoftware Toolkit}
+      {Open source python library for financial data analysis and machine learning for finance.}
+    \resumeSubItem{Github Visualization}
+      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+    \resumeSubItem{Recommendation System}
+      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+    \resumeSubItem{Mac Setup}
+      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
