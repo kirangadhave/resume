@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2017.10.19)  27 OCT 2017 16:48
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2017.10.19)  28 OCT 2017 18:22
  restricted system commands enabled.
 **"Kiran Gadhave Resume.tex"
 ("./Kiran Gadhave Resume.tex"
@@ -333,7 +333,7 @@ Here is how much of LuaTeX's memory you used:
  393 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 53 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 1:1,2:750,3:183,4:97,5:269,6:2750,7:940,8:51,9:188,10:22,11:286
+   avail lists: 1:1,2:746,3:182,4:97,5:269,6:2747,7:938,8:50,9:188,10:22,11:286
  10271 multiletter control sequences out of 65536+600000
  48 fonts using 3222399 bytes
  28i,11n,43p,314b,382s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -342,10 +342,10 @@ f/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lm
 roman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.ot
 f></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Kiran Gadhave Resume.pdf (1 page, 38205 bytes).
+Output written on Kiran Gadhave Resume.pdf (1 page, 38002 bytes).
 
-PDF statistics: 77 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+PDF statistics: 76 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
