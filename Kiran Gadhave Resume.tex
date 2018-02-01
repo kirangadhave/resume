@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,9pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -84,12 +84,18 @@
       {The University of Utah}{Salt Lake City, UT}
       {Master of Science in Computer Science}{Aug. 2017 -- Present}
       \resumeItemListStart
+	    \resumeItem{Teaching Assistant}{
+		  \begin{itemize}
+		  	\item TA for the Introduction to Data Science course under the guidance of Prof. Alexander Lex and Prof. Braxton Osting.
+		  	\item Was awarded $100\%$ tuition fee waiver.
+		  \end{itemize}
+	    }
       	\resumeItem{Courses}
-      	{Advanced Algorithms $-93\%$, Natural Language Processing $-96\%$, Machine Learning $-94\%$}
+      	{Operating System, Computer Vision, Advanced Algorithms, Natural Language Processing, Machine Learning}
       \resumeItemListEnd
     \resumeSubheading
       {University of Mumbai}{Mumbai, India}
-      {BE, Mechanical Engineering; Class Rank: 10/120; First Class with Distinction}{2011 -- 2015}
+      {BE, Mechanical Engineering; Class Rank: $10/120$; First Class with Distinction}{2011 -- 2015}
   \resumeSubHeadingListEnd
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -114,7 +120,7 @@
           	%\item Feature to add formulas with dynamic retrieval of variables from database based on item selection.
           %\end{itemize}
           %}
-          \resumeItem{Browser based CAD tool}{Developed a browser based 3D modeling tool for designing clean room layouts for hospitals using threeJS and TypeScript.}
+          %\resumeItem{Browser based CAD tool}{Developed a browser based 3D modeling tool for designing clean room layouts for hospitals using threeJS and TypeScript.}
           %{
 			%\begin{itemize}
 			%	\item Developed a browser based 3D modeling tool for designing clean room layouts for hospitals using threeJS and TypeScript.
@@ -126,15 +132,43 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+	\resumeSubItem{Neuro-inspired Computational Vision}{
+		\begin{itemize}
+			\item Studying computational properties of neural systems to research novel approaches to computer vision in real world settings.
+			\item I am using Psychophysics toolbox in Matlab to setup experiments to collect vision data regarding spatial and temporal sensitivity of humans and compare it with machine learning algorithms trained on neural data collected from monkeys.
+		\end{itemize}
+	}
+
+	\resumeSubItem{Basic Operating System (opsys)}{
+		\begin{itemize}
+			\item Started a basic operating system project hosted on github to understand and practically apply concepts learned in operating systems coursework.
+			\item Implemented bootloader for x86 from scratch. Currently just the bootloader, string libraries and basic kernel has been implemented.
+		\end{itemize}
+	}
+
     \resumeSubItem{Event Extraction System for Latin American Terrorism}
-      {Built an event extraction system with neural network and NLP pattern matching components to extract events. \textbf{Multilayer Perceptron} neuralnet with ReLU was used to recognize the incidents in text. Pattern matching was used to fill the template with specific details about the events. Achieved $4^{th}$ highest F-Score in the class.}
-    \resumeSubItem{Twitter Spambot Detection}
-      {Ran multiple classifiers over Twitter Data collected using Social honeypots to detect spammers and malicious promoters on twitter. Tested 5 different classifiers and foudn that Bagged Forest classifiers with 1000 trees gave best performance of about \textbf{0.92} which is comparable with accuracy obtained in the original paper of \textbf{0.94}. I implemented all the classifiers from scratch and used $5-$fold cross validation.}
-      \resumeSubItem{Space and time trade-offs in hash coding with allowable errors}
       {
-		Implemented a data structure which allows probabilistic set membership tests with a small false positive rate, but allowing huge space and time savings. The data structure follows from the paper Cuckoo Filter(2014) and builds on similar ideas. We compared this with a much older data structure Bloom Filter. The new data structure not only performs better, but also allows deletion of items from set, which was not possible with Bloom Filters.
+      	\begin{itemize}
+      		\item Built an event extraction system with neural network and NLP pattern matching components to extract events.
+      		\item \textbf{Multilayer Perceptron} neuralnet with ReLU was used to recognize the incidents in text. Pattern matching was used to fill the template with specific details about the events.
+      		\item Achieved $4^{th}$ highest F-Score in the class.
+      	\end{itemize}
+    } 	  
+    \resumeSubItem{Twitter Spambot Detection}
+      {
+      	\begin{itemize}
+      		\item Ran multiple classifiers over Twitter Data collected using Social honeypots to detect spammers and malicious promoters on twitter.
+      		\item Tested 5 different classifiers and foudn that Bagged Forest classifiers with 1000 trees gave best performance of about \textbf{0.92} which is comparable with accuracy obtained in the original paper of \textbf{0.94}. I implemented all the classifiers from scratch and used $5-$fold cross validation.
+      	\end{itemize}
+  	 }
+	\resumeSubItem{Space and time trade-offs in hash coding with allowable errors}
+      {
+      	\begin{itemize}
+      		\item Implemented a data structure which allows probabilistic set membership tests with a small false positive rate, but allowing huge space and time savings.
+      		\item The data structure follows from the paper Cuckoo Filter(2014) and builds on similar ideas. We compared this with a much older data structure Bloom Filter. The new data structure not only performs better, but also allows deletion of items from set, which was not possible with Bloom Filters.
+      	\end{itemize}
       }
-      \resumeSubItem{Quadrupedal insect robot}
+	\resumeSubItem{Quadrupedal insect robot}
       {
       Developed during my undergraduate studies as a part of Mechatronics class project. Designed and fabricated a four legged insect with two servos controlling 4 legs and MCS-51 microcontroller processing the timings for the walking gait. Entire insect and circuit was designed and then fabricated from scratch.
       }
@@ -158,15 +192,15 @@
 
 
 %-----------SKILLS-----------------
-\section{Skill}
-  \resumeSubHeadingListStart
-    \item{
-      \textbf{Languages}{: Python, C\#, C++, Java, JavaScript, Typescript}
-      }
-	\item{
-		\textbf{Tools}{: pandas, sklearn, nltk, Spacy(NLP), .NET framework, SQL databases}
-	}
-  \resumeSubHeadingListEnd
+%\section{Skill}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Python, C\#, C++, Java, JavaScript, Typescript}
+%      }
+%	\item{
+%		\textbf{Tools}{: pandas, scikit-learn, nltk, Spacy(NLP), .NET framework, SQL databases}
+%	}
+%  \resumeSubHeadingListEnd
 
 
 %
