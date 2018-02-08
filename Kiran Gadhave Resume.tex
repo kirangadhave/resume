@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,9pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -27,7 +27,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-0.75in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -87,7 +87,7 @@
 	    \resumeItem{Teaching Assistant}{
 		  \begin{itemize}
 		  	\item TA for the Introduction to Data Science course under the guidance of Prof. Alexander Lex and Prof. Braxton Osting.
-		  	\item Was awarded $100\%$ tuition fee waiver.
+		  	\item Awarded $100\%$ tuition fee waiver.
 		  \end{itemize}
 	    }
       	\resumeItem{Courses}
@@ -110,7 +110,7 @@
 	%			\item Developed PC interfacing with CAD softwares viz. Solidworks, Autodesk Inventor using APIs.
 				%\item  Developed user interfaces in WPF to minimize training required for development of complicated drawings.
 	%		\end{itemize}  
-        \resumeItem{Inventory Master}{Led the development of tools \& schema for very large data storage and retrieval over local MySQL server for 100 simultaneous users, fast composite text search tool and ability to write small macros for basic automation.}
+        \resumeItem{Inventory Management Database}{Led the development of tools \& schema for very large data storage and retrieval over local MySQL server for 100 simultaneous users, fast composite text search tool and a \textbf{scripting language} to write small macros for basic automation.}
           %{\begin{itemize}
           	%\item Inventory management system for SMEs to manage their raw material and processed goods on production line.
           	%\item Tools \& schema for very large data storage and retrieval over local MySQL server for 100 simultaneous users, fast composite text search tool and ability to write small macros for basic automation.
@@ -132,41 +132,25 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+	\resumeSubItem{University Library for Innovation in Scientific Securities and Economic Simulation(Project ULISSES)}{Working with Scientific Computing and Imaging(SCI) lab on developing loaders to parse and upload financial data from financial analysis firms onto structured open-source databases with goal of preparing it for data science research.}
 	\resumeSubItem{Neuro-inspired Computational Vision}{
-		\begin{itemize}
-			\item Studying computational properties of neural systems to research novel approaches to computer vision in real world settings.
-			\item I am using Psychophysics toolbox in Matlab to setup experiments to collect vision data regarding spatial and temporal sensitivity of humans and compare it with machine learning algorithms trained on neural data collected from monkeys.
-		\end{itemize}
+			Currently working with  \textbf{Prof. Neda Nategh (ECE program)} and  \textbf{Prof. Behrad Noudoost (Neuroscience program)} with the Vision Computation Lab.\\
+			Studying computational properties of neural systems to research novel approaches to computer vision in real world settings. My current task involved designing and programming experiments using Psychophysics toolbox in Matlab to collect vision data regarding spatial and temporal sensitivity and further test different machine learning algorithms to achieve similar results. The aim is to study the reason for such sensitivities and if similar effect can be mimicked by an algorithm.
 	}
-
 	\resumeSubItem{Basic Operating System (opsys)}{
-		\begin{itemize}
-			\item Started a basic operating system project hosted on github to understand and practically apply concepts learned in operating systems coursework.
-			\item Implemented bootloader for x86 from scratch. Currently just the bootloader, string libraries and basic kernel has been implemented.
-		\end{itemize}
+			Started a basic operating system project hosted on github to understand and practically apply concepts learned in operating systems coursework. Implemented bootloader for x86 from scratch. Currently just the bootloader, string libraries and basic kernel has been implemented.
 	}
-
     \resumeSubItem{Event Extraction System for Latin American Terrorism}
       {
-      	\begin{itemize}
-      		\item Built an event extraction system with neural network and NLP pattern matching components to extract events.
-      		\item \textbf{Multilayer Perceptron} neuralnet with ReLU was used to recognize the incidents in text. Pattern matching was used to fill the template with specific details about the events.
-      		\item Achieved $4^{th}$ highest F-Score in the class.
-      	\end{itemize}
+      		Built an event extraction system with neural network and NLP pattern matching components to extract events. \textbf{Multilayer Perceptron} neuralnet with ReLU was used to recognize the incidents in text. Pattern matching was used to fill the template with specific details about the events. Achieved $4^{th}$ highest F-Score in the class.
     } 	  
     \resumeSubItem{Twitter Spambot Detection}
       {
-      	\begin{itemize}
-      		\item Ran multiple classifiers over Twitter Data collected using Social honeypots to detect spammers and malicious promoters on twitter.
-      		\item Tested 5 different classifiers and foudn that Bagged Forest classifiers with 1000 trees gave best performance of about \textbf{0.92} which is comparable with accuracy obtained in the original paper of \textbf{0.94}. I implemented all the classifiers from scratch and used $5-$fold cross validation.
-      	\end{itemize}
+      		Ran multiple classifiers over Twitter Data collected using Social honeypots to detect spammers and malicious promoters on twitter. Tested 5 different classifiers and found that Bagged Forest classifiers with 1000 trees gave best performance of about \textbf{0.92} which is comparable with accuracy obtained in the original paper of \textbf{0.94}. I implemented all the classifiers from scratch and used $5-$fold cross validation.
   	 }
 	\resumeSubItem{Space and time trade-offs in hash coding with allowable errors}
       {
-      	\begin{itemize}
-      		\item Implemented a data structure which allows probabilistic set membership tests with a small false positive rate, but allowing huge space and time savings.
-      		\item The data structure follows from the paper Cuckoo Filter(2014) and builds on similar ideas. We compared this with a much older data structure Bloom Filter. The new data structure not only performs better, but also allows deletion of items from set, which was not possible with Bloom Filters.
-      	\end{itemize}
+     		Implemented a data structure which allows probabilistic set membership tests with a small false positive rate, but allowing huge space and time savings. The data structure follows from the paper Cuckoo Filter(2014) and builds on similar ideas. We compared this with a much older data structure Bloom Filter. The new data structure not only performs better, but also allows deletion of items from set, which was not possible with Bloom Filters.
       }
 	\resumeSubItem{Quadrupedal insect robot}
       {
@@ -185,7 +169,10 @@
 \section{Extra-curricular activites}
   \resumeSubHeadingListStart
     \resumeSubItem{Team Captain for undergraduate racing team}
-      {Lead the undergraduate college team in designing and fabricating an cost-effective All-Terrain Vehicle using computer simulations to minimize errors during fabrication. This was done for a national level engineering competition organized by Society of Automobile Engineers(SAE).}
+      {
+	      	Competed in the prestigious BAJA SAE competition representing my college on national platform. Lead the undergraduate college team in designing and fabricating an cost-effective All-Terrain Vehicle using computer simulations to minimize errors during fabrication. Used computational methods to design and validate \textbf{chassis, suspension and brake geometries} under different loads. Was awarded first position from Mumbai region.
+	}
+      
     \resumeSubItem{Volunteer Teacher}
       {Taught high school physics, chemistry and mathematics to students who couldn't attend high school due to financial constraints. Many of these students went on to give the required board exams and get a high school degree.}
   \resumeSubHeadingListEnd
@@ -205,14 +192,13 @@
 
 %
 %--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+\section{Programming Skills}
+ 
+      \textbf{Languages}{: C, Python, Matlab}
+   
+
+\textbf{Technologies}{: scikit-learn, nltk, spacy, Image Processing and Psychophysics Toolbox}
+ 
 
 
 %-------------------------------------------
